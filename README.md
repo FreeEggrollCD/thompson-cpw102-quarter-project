@@ -2,24 +2,30 @@
 
 ## Project description
 
-Describe what your project does and who it helps.
+This project is an AIO computer hardware benchmarking CLI software written in python.
 
 ## Author
 
-Add your name and, optionally, your GitHub username.
+Jonathon Thompson
 
 ## Environment setup
 
-List the Python version and the commands to create and activate a virtual environment.
+Python >= 3.14
+Doowload libraries in `dependencies.txt` or optionally run the program with the `-d` flag
 
 ## Dependencies
+TP = Third party
+PS = Python standard
 
-Explain how to install any packages your project needs.
+The main project will use these libraries:
+(TP)rich - for displaying information in a more "aesthetically pleasing" way
+(PS)threading - for use in bencharking the cpu
 
 ## Running the project
 
-Give the command to start the program and one example of how to use it.
+The program can be run using this command: `python3 main.py`.
+If dependency errors are present run with the `-d` flag: `python3 main.py -d`.
 
 ## Running the tests
 
-Give the command to run the unit tests.
+The command for testing is : `python3 main.py -T`
