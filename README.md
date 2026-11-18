@@ -20,6 +20,9 @@ PS = Python standard
 The main project will use these libraries:
 (TP)rich - for displaying information in a more "aesthetically pleasing" way
 (PS)threading - for use in bencharking the cpu
+(PS)importlib \
+(PS)subprocess - used to download dependencies in `dependencies.txt`
+(PS)sys ||||||/
 
 ## Running the project
 
