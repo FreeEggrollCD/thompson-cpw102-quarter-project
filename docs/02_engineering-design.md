@@ -3,12 +3,11 @@
 
 ## Overview
 
-[Provide a system-level explanation of:
-
-- major components of your application and how they interact.
-- data flow at a high level
-
-A friend should be able to read this section and, at a glance, understand how the application works. ]
+The application will be called from the command line.
+If the required packages are not found, the user will be prompted to install them.
+Once the program is running, the user will be prompted for which part(s) they would like to benchmark.
+The user will then be prompted for how verbose the results should be and if they would like to save them to a file.
+A series of flags can be called upon running the program to skip being prompted and go straight to the benchmarking.
 
 ## System Diagrams
 
@@ -23,7 +22,7 @@ A friend should be able to read this section and, at a glance, understand how th
 
 ### Inputs
 
-[What information will you take from the user? How will you take it (terminal, UI, file, ext)? What data types will you need to store user-entered information? ]
+The user will be greeted with a series of options for what they would like to benchmark.
 
 #### Handling bad inputs
 
